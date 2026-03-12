@@ -1,6 +1,6 @@
-# Machine Learning for Medical Diagnosis with Explainable AI, Calibration, and Uncertainty Estimation
+Machine Learning for Medical Diagnosis with Explainable AI, Calibration, and Uncertainty Estimation
 
-## Overview
+Overview
 
 This project implements an end-to-end machine learning pipeline for medical diagnosis using the Breast Cancer Wisconsin dataset.
 The objective is to predict whether a tumor is malignant or benign while ensuring model accuracy, interpretability, reliability, and uncertainty awareness.
@@ -19,11 +19,9 @@ Key focus areas:
 * Counterfactual explanations
 * Reproducible notebook workflow
 
-This project was built to practice interview-level machine learning concepts and real-world healthcare ML modeling.
-
 ---
 
-## Dataset
+Dataset
 
 Breast Cancer Wisconsin Dataset (from sklearn)
 
@@ -41,7 +39,7 @@ This dataset is commonly used for benchmarking classification algorithms in medi
 
 ---
 
-## Machine Learning Pipeline
+Machine Learning Pipeline
 
 The following steps were implemented:
 
@@ -60,7 +58,7 @@ The following steps were implemented:
 
 ---
 
-## Models Used
+Models Used
 
 * Logistic Regression
 * Random Forest Classifier
@@ -80,7 +78,7 @@ Libraries:
 
 ---
 
-## Model Evaluation
+Model Evaluation
 
 Evaluation metrics:
 
@@ -97,7 +95,7 @@ Medical datasets may have class imbalance, so ROC-AUC gives better performance e
 
 ---
 
-## Hyperparameter Tuning
+Hyperparameter Tuning
 
 GridSearchCV was used to tune model parameters.
 
@@ -112,7 +110,7 @@ Cross-validation was used during tuning to avoid overfitting.
 
 ---
 
-## Class Imbalance Handling
+Class Imbalance Handling
 
 Techniques used:
 
@@ -125,7 +123,7 @@ In medical diagnosis, false negatives are critical, so recall and class balance 
 
 ---
 
-## Explainable AI (SHAP)
+Explainable AI (SHAP)
 
 SHAP values were used to interpret model predictions.
 
@@ -140,7 +138,7 @@ SHAP helps ensure that the model decisions are understandable and trustworthy.
 
 ---
 
-## Calibration Analysis
+Calibration Analysis
 
 Calibration curves were used to check whether predicted probabilities match true outcomes.
 
@@ -155,7 +153,7 @@ Calibration improves decision reliability.
 
 ---
 
-## Confidence / Uncertainty Estimation
+Confidence / Uncertainty Estimation
 
 Predicted probabilities were used to estimate model confidence.
 
@@ -165,7 +163,7 @@ This is important in real-world ML where models should know when they are unsure
 
 ---
 
-## Counterfactual Explanations
+Counterfactual Explanations
 
 Counterfactual explanations were generated using DiCE.
 
@@ -183,7 +181,7 @@ This is useful in explainable AI and healthcare ML.
 
 ---
 
-## Results
+Results
 
 * Compared multiple models
 * Tuned hyperparameters
@@ -197,7 +195,7 @@ The project demonstrates a realistic machine learning workflow for healthcare ap
 
 ---
 
-## Skills Demonstrated
+Skills Demonstrated
 
 * Machine Learning
 * Data Science
@@ -217,7 +215,7 @@ The project demonstrates a realistic machine learning workflow for healthcare ap
 
 ---
 
-## How to Run
+How to Run
 
 Install dependencies:
 
@@ -229,11 +227,11 @@ jupyter notebook
 
 Open:
 
-notebook.ipynb
+notebook1.ipynb
 
 ---
 
-## Project Motivation
+Project Motivation
 
 Real-world medical machine learning systems must be:
 
